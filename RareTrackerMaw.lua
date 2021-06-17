@@ -1,7 +1,7 @@
 -- Get an object we can use for the localization of the addon.
 local L = LibStub("AceLocale-3.0"):GetLocale("RareTracker", true)
 
--- Register the data for the target zone.
+-- Register the data for the target zones.
 RareTracker.RegisterRaresForModule({
     -- Define the zone(s) in which the rares are present.
     ["target_zones"] = {1543},
@@ -31,6 +31,19 @@ RareTracker.RegisterRaresForModule({
         [164064] = {L[164064], 60667, {48.5, 18.4}}, -- "Obolos"
         [170634] = {L[170634], 60884, {31.0, 60.3}}, -- "Shadeweaver Zeris"
         [175012] = {L[175012], 62788, {32.5, 51.8}}, -- "Ikras the Devourer"
+        
+        [179853] = {L[179853], 64276, {36.0, 41.6}}, -- "Blinding Shadow (Rift)"
+        [179851] = {L[179851], 64272, {51, 70}}, -- "Guard Orguluus (Rift)"
+        [179735] = {L[179735], 64232, {28.6, 25.1}}, -- "Torglluun (Rift)"
+        
+        [179779] = {L[179779], nil, {66.4, 55.5}}, -- "Deomen the Vortex"
+        -- "Fallen Charger"
+        [179805] = {L[179805], nil, {67.4, 47.8}}, -- "Traitor Balthier"
+        [177444] = {L[177444], nil, {66.4, 41.9}}, -- "Ylva"
+        
+        
+        
+        
     },
     ["NPCIdRedirection"] = function(npc_id)
         -- Check whether the entity is Mecharantula.
@@ -44,4 +57,36 @@ RareTracker.RegisterRaresForModule({
             return npc_id
         end
     end
+})
+
+RareTracker.RegisterRaresForModule({
+    ["target_zones"] = {1961},
+    ["zone_name"] = "Korthia",
+    ["plugin_name"] = "Korthia",
+    ["plugin_name_abbreviation"] = "Korthia",
+    ["entities"] = {
+        --npc_id = {name, quest_id, coordinates}
+        [180246] = {L[180246], 64258, {58.2, 17.7}}, -- "Carriage Crusher"
+        [179679] = {L[179679], 64243, {50.3, 42.6}}, -- "Consumption"
+        [177903] = {L[177903], 63830, {51.9, 20.9}}, -- "Dominated Protector"
+        [180013] = {L[180013], 64320, {33.2, 39.4}}, -- "Escaped Wilderling"
+        [180042] = {L[180042], 64349, {59.8, 43.4}}, -- "Fleshwing"
+        [179472] = {L[179472], 64246, nil}, -- "Konthrogz the Obliterator"
+        [179931] = {L[179931], 64291, {22.9, 42.1}}, -- "Relic Breaker Krelva"
+        [179108] = {L[179108], 64428, {62.1, 36.4}}, -- "Kroke the Tormented"
+        [179684] = {L[179684], 64233, {60.7, 23.1}}, -- "Malbog"
+        [180160] = {L[180160], 64455, {56.3, 66.1}}, -- "Reliwik the Defiant"
+        [179985] = {L[179985], 64313, {45.7, 80.0}}, -- "Stygian Stonecrusher"
+        [179760] = {L[179760], 64245, nil}, -- "Towering Exterminator"
+        -- "Ve'rayn"
+        [180032] = {L[180032], 64338, {56.9, 32.4}}, -- "Wild Worldcracker"
+        [179859] = {L[179859], 64278, {45.0, 35.5}}, -- "Xyraxz the Unknowable"
+        [179802] = {L[179802], 64257, {39.4, 52.4}}, -- "Yarxhov the Pillager"
+        [177335] = {L[177335], 64442, {27.8, 58.9}}, -- "Zelnithop"
+        
+        [179913] = {L[179913], nil, nil}, -- "Deadsoul Hatcher (Rift)"
+        [179608] = {L[179608], 64263, {44.8, 42.8}}, -- "Screaming Shade (Rift)"
+        [179911] = {L[179911], nil, {57.6, 70.4}}, -- "Silent Soulstalker (Rift)"
+        [179914] = {L[179914], nil, {50.3, 75.9}}, -- "Observer Yorik (Rift)"
+    },
 })
