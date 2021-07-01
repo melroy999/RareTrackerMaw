@@ -27,6 +27,7 @@ L[179853] =  "Blinding Shadow (Rift)"
 L[179851] = "Guard Orguluus (Rift)"
 L[179735] =  "Torglluun (Rift)"
 
+L[180246] = "Carriage Crusher"
 L[179779] = "Deomen the Vortex"
 -- "Fallen Charger"
 L[179805] = "Traitor Balthier"
@@ -34,8 +35,9 @@ L[177444] = "Ylva"
 
 
 
-L[180246] = "Carriage Crusher"
-L[179679] = "Consumption"
+L[179769] = "Consumption (Spawn)"
+L[179755] = "Consumption (Rare)"
+L[179768] = "Consumption (Rare Elite)"
 L[177903] = "Dominated Protector"
 L[180013] = "Escaped Wilderling"
 L[180042] = "Fleshwing"
@@ -50,7 +52,7 @@ L[179760] = "Towering Exterminator"
 L[180032] = "Wild Worldcracker"
 L[179859] = "Xyraxz the Unknowable"
 L[179802] = "Yarxhov the Pillager"
-L[177335] = "Zelnithop"
+L[177336] = "Zelnithop"
 
 L[179913] = "Deadsoul Hatcher (Rift)"
 L[179608] = "Screaming Shade (Rift)"

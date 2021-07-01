@@ -12,6 +12,7 @@ RareTracker.RegisterRaresForModule({
         --npc_id = {name, quest_id, coordinates}
         [157964] = {L[157964], 57482, {25.8, 31.2}}, -- "Adjutant Dekaris"
         [157833] = {L[157833], 57469, {39.6, 41.0}}, -- "Borr-Geth"
+        [180246] = {L[180246], 64258, {45.5, 54.8}}, -- "Carriage Crusher"
         [160770] = {L[160770], 62281, {60.8, 47.8}}, -- "Darithis the Bleak"
         [170711] = {L[170711], 60909, {32.9, 65.2}}, -- "Dolos"
         [169827] = {L[169827], 60666, {42.4, 21.2}}, -- "Ekphoras, Herald of Grief"
@@ -66,8 +67,9 @@ RareTracker.RegisterRaresForModule({
     ["plugin_name_abbreviation"] = "Korthia",
     ["entities"] = {
         --npc_id = {name, quest_id, coordinates}
-        [180246] = {L[180246], 64258, {58.2, 17.7}}, -- "Carriage Crusher"
-        [179679] = {L[179679], 64243, {50.3, 42.6}}, -- "Consumption"
+        [179769] = {L[179769], 64243, {50.3, 42.6}}, -- "Consumption (Spawn)"
+        [179755] = {L[179755], 64243, {50.3, 42.6}}, -- "Consumption (Rare)"
+        [179768] = {L[179768], 64243, {50.3, 42.6}}, -- "Consumption (Rare Elite)"
         [177903] = {L[177903], 63830, {51.9, 20.9}}, -- "Dominated Protector"
         [180013] = {L[180013], 64320, {33.2, 39.4}}, -- "Escaped Wilderling"
         [180042] = {L[180042], 64349, {59.8, 43.4}}, -- "Fleshwing"
@@ -82,7 +84,7 @@ RareTracker.RegisterRaresForModule({
         [180032] = {L[180032], 64338, {56.9, 32.4}}, -- "Wild Worldcracker"
         [179859] = {L[179859], 64278, {45.0, 35.5}}, -- "Xyraxz the Unknowable"
         [179802] = {L[179802], 64257, {39.4, 52.4}}, -- "Yarxhov the Pillager"
-        [177335] = {L[177335], 64442, {27.8, 58.9}}, -- "Zelnithop"
+        [177336] = {L[177336], 64442, {27.8, 58.9}}, -- "Zelnithop"
         
         [179913] = {L[179913], nil, nil}, -- "Deadsoul Hatcher (Rift)"
         [179608] = {L[179608], 64263, {44.8, 42.8}}, -- "Screaming Shade (Rift)"
