@@ -41,13 +41,9 @@ RareTracker.RegisterRaresForModule({
         -- "Fallen Charger"
         [179805] = {L[179805], nil, {67.4, 47.8}}, -- "Traitor Balthier"
         [177444] = {L[177444], nil, {66.4, 41.9}}, -- "Ylva"
-        
-        
-        
-        
     },
     ["NPCIdRedirection"] = function(npc_id)
-        -- Check whether the entity is Mecharantula.
+        -- Check whether the entity has redirected IDs.
         if npc_id == 169828 then
             return 169827 -- "Ekphoras, Herald of Grief"
         elseif npc_id == 170315 then
