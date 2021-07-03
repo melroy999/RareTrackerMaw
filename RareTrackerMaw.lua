@@ -82,9 +82,9 @@ RareTracker.RegisterRaresForModule({
         [179802] = {L[179802], 64257, {39.4, 52.4}}, -- "Yarxhov the Pillager"
         [177336] = {L[177336], 64442, {27.8, 58.9}}, -- "Zelnithop"
         
-        [179913] = {L[179913], nil, nil}, -- "Deadsoul Hatcher (Rift)"
+        [179913] = {L[179913], 64285, {60.0, 53.2}}, -- "Deadsoul Hatcher (Rift)"
         [179608] = {L[179608], 64263, {44.8, 42.8}}, -- "Screaming Shade (Rift)"
-        [179911] = {L[179911], nil, {57.6, 70.4}}, -- "Silent Soulstalker (Rift)"
-        [179914] = {L[179914], nil, {50.3, 75.9}}, -- "Observer Yorik (Rift)"
+        [179911] = {L[179911], 64284, {57.6, 70.4}}, -- "Silent Soulstalker (Rift)"
+        [179914] = {L[179914], 64572, {50.3, 75.9}}, -- "Observer Yorik (Rift)"
     },
 })
