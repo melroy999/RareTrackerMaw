@@ -57,7 +57,7 @@ RareTracker.RegisterRaresForModule({
 })
 
 RareTracker.RegisterRaresForModule({
-    ["target_zones"] = {1961},
+    ["target_zones"] = {1961, 2007},
     ["zone_name"] = "Korthia",
     ["plugin_name"] = "Korthia",
     ["plugin_name_abbreviation"] = "Korthia",
